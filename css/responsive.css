@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1024px){
+    .home{
+        max-height: 95hv;
+    }
+   .profile_body.flex{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+   }
+   .body_de{
+    font-size: 13px;
+    text-align: center;
+    padding-top: -27px;
+   }
+   .body_img{
+    order: -1;
+    width: 183px;
+   }
+   .contact{
+    margin: auto;
+   }
+}
+
+@media only screen and (max-width: 768px){
+    img{
+        width:100%;
+    }
+}
